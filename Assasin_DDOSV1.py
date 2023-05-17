@@ -60,7 +60,7 @@ by: Assasin
         '''+Style.RESET_ALL)
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(65,299)
+    bytes = random._urandom(65)
 
     def chech_con():
         try:
